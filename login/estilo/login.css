@@ -1,0 +1,69 @@
+
+body {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(120deg, #a18cd1 0%, #fbc2eb 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    border-bottom: 4px solid rgb(68, 0, 255);
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #e1d5ff;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 18px;
+    background: linear-gradient(120deg, #6938dc 0%, rgb(192, 145, 227) 100%);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px;
+    width: 90px;   
+}
+
+.senha-perdida {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.senha-perdida a {
+    color: rgb(106, 0, 255);
+    text-decoration: none;
+}
